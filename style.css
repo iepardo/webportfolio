@@ -1,0 +1,32 @@
+.bg-gradiant{
+  background-image: linear-gradient(120deg,#002147,#000930,#00011B);
+}
+.bg-gradiant-shadow{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.bg-darkblue{
+    background-color: #002147;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+.background{
+  margin: 0;
+  padding: 0;
+  height: 55vh;
+  /* background-color: gray; */
+  background-image: url(./images/1393334.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-attachment values = scroll and fixed*/
+  background-attachment: fixed;
+}
+
+.front-bg{
+  background-color: rgba(0, 0, 0, .3);
+}
